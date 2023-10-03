@@ -1,0 +1,91 @@
+.products-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    padding: 15px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .promotion-banner {
+    width: 100%;
+    max-width: 1200px;
+    max-height: 400px;
+    /* margin-bottom: 20px; */
+    padding: 15px;
+    /* margin-right: 20px; */
+  }
+  
+  .category-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-filter label {
+    margin-right: 10px;
+  }
+  
+  .category-filter select {
+    width: 150px;
+  }
+
+  .brochures-slider {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  .product-image-container {
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  @media (min-width: 576px) {
+    /* For screens wider than 576px */
+    .products-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .brochures-slider {
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* For screens wider than 768px */
+    .products-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .brochures-slider {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* For screens wider than 992px */
+    .products-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .brochures-slider {
+      max-width: 1200px;
+    }
+  }
+  

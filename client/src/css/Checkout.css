@@ -1,0 +1,40 @@
+.checkout-container {
+    margin-top: 10px;
+  }
+  
+  .checkout-form {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .checkout-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .checkout-form .btn {
+    margin-top: 20px;
+  }
+  
+  h1{
+    padding-bottom: 30px;
+  }
+  
+  #formLastName{
+    margin-bottom: 10px;
+  }
+  
+  #formMobileNumber{
+    margin-bottom: 20px;
+  }
+
+  #formAddress{
+    margin-bottom: 20px;
+  }
+
+  #formCity{
+    margin-bottom: 20px;
+  }
+
+  #formPinCode{
+    margin-bottom: 20px;
+  }

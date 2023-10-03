@@ -1,0 +1,67 @@
+.App {
+    text-align: center;
+  }
+  
+  .cart-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .cart-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    min-height: 50vh; /* 80% of the viewport height */  
+  }
+  
+  .cart-item-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-details {
+    align-items: center;
+  }
+  
+  .cart-item-name {
+    font-size: 18px;
+  }
+  
+  .cart-item-price {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  
+  .cart-item-quantity {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .total-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .checkout-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .table {
+    flex: 1;
+  }

@@ -1,0 +1,11 @@
+/* OrderPlaced.css */
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 51vh; /* Instead of 51vh to ensure the content is centered on the whole viewport */
+}
+
+.text-center {
+  text-align: center;
+}
